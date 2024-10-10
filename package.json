@@ -9,18 +9,33 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@floating-ui/react-dom": "^2.1.2",
+    "@lexical/list": "^0.16.1",
+    "@lexical/react": "^0.16.1",
+    "@lexical/selection": "^0.16.1",
+    "@liveblocks/client": "^2.7.2",
+    "@liveblocks/node": "^2.7.2",
+    "@liveblocks/react": "^2.7.2",
+    "@liveblocks/react-lexical": "^2.7.2",
+    "@liveblocks/react-ui": "^2.7.2",
+    "@prisma/client": "^5.20.0",
+    "iconsax-react": "^0.0.8",
+    "lexical": "^0.16.1",
+    "nanoid": "^5.0.7",
+    "next": "14.2.13",
+    "next-auth": "^4.24.8",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.13"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.13"
+    "eslint-config-next": "14.2.13",
+    "postcss": "^8",
+    "prisma": "^5.20.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
